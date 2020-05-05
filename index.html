@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Blinqe | login</title>
+  </head>
+  <body>
+    <div class="container-top-menu">
+      <!-- side menu  / content-->
+      <div class="aside-top-right">
+        <header>
+          <h2>Blinqe</h2>
+        </header>
+
+        <div class="nav-bar">
+          <ul>
+            <!--  -->
+
+            <a>
+              <li class="active">
+                <i class="material-icons">assignment_ind</i> Manage the driver
+              </li>
+            </a>
+            <!--  -->
+            <a href="#">
+              <li>
+                <!-- <a href="#"> -->
+                <i class="material-icons">directions_bus</i> Manage the Bus
+              </li>
+            </a>
+            <!--  -->
+            <a href="#">
+              <li><i class="material-icons">departure_board</i> Bus routine</li>
+            </a>
+
+            <!--  -->
+            <a href="#">
+              <li><i class="material-icons">map</i> Map</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+      <!-- top menu -->
+      <div class="aside-top-left">
+        <div class="profile-pic">
+          <i class="material-icons">inbox</i>
+          <p>Admin</p>
+          <img src="img/profile.jpg" alt="" />
+        </div>
+      </div>
+      <!-- <div class="side-menu"></div> -->
+    </div>
+
+    <div class="forms">
+      <div class="head">
+        <p>Drive manager</p>
+        <label for="">Dashboard / manage the driver</label>
+      </div>
+      <form action="">
+        <div class="inputs">
+          <div class="warning">
+            <p>Waring messages</p>
+          </div>
+          <input type="email" name="" id="" placeholder="Name" />
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Driver license number"
+          />
+          <select name="" id="">
+            <option value="">Assing a bus</option>
+            <option value="">1</option>
+            <option value="">1</option>
+            <option value="">1</option>
+            <option value="">1</option>
+          </select>
+          <input type="email" name="" id="" placeholder="Email" />
+          <input type="email" name="" id="" placeholder="Driver code" />
+
+          <div class="buttons">
+            <input class="save" type="submit" value="Save" />
+            <input class="update" type="submit" value="Update" />
+            <input class="delete" type="submit" value="Delete" />
+            <input class="select" type="submit" value="Select  " />
+          </div>
+        </div>
+
+        <div class="driver_photo">
+          <div class="the-pic" id="imagePreview">
+            <img src="img/profile.jpg" alt="" class="image_preview_img" />
+          </div>
+
+          <input type="file" name="" id="file" />
+          <label for="file">
+            Upload photo
+          </label>
+        </div>
+      </form>
+    </div>
+
+    <script src="js/_preview_photo.js"></script>
+  </body>
+</html>

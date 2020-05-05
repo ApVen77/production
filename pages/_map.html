@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../style/style.css" /> -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style/_map.css" />
+    <title>Blinqe | Bus Manager</title>
+  </head>
+  <body>
+    <div class="container-top-menu">
+      <!-- side menu  / content-->
+      <div class="aside-top-right">
+        <header>
+          <h2>Blinqe</h2>
+        </header>
+
+        <div class="nav-bar">
+          <ul>
+            <!-- driver -->
+
+            <a href="_driver.html">
+              <li>
+                <i class="material-icons">assignment_ind</i> Driver manager
+              </li>
+            </a>
+
+            <!--Bus  -->
+            <a href="_bus.html">
+              <li>
+                <!-- <a href="#"> -->
+                <i class="material-icons">directions_bus</i> Bus manager
+              </li>
+            </a>
+            <!--  -->
+            <a href="_bus_routine.html">
+              <li><i class="material-icons">departure_board</i> Bus routine</li>
+            </a>
+
+            <!--  -->
+            <a href="#">
+              <li class="active"><i class="material-icons">map</i> Map</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+      <!-- top menu -->
+      <div class="aside-top-left">
+        <div class="profile-pic">
+          <i class="material-icons">inbox</i>
+          <p>Admin</p>
+          <img src="../img/profile.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- the map holder -->
+    <div class="forms">
+      <div id="map" style="width: 100%; height: 100vh;"></div>
+    </div>
+
+    <script type="text/javascript" src="../js/_map_styling.js"></script>
+    <script type="text/javascript" src="../js/_map.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_8C0FMrbfPsWDG0ngAJtwBJM80DQbuAI&callback=initMap"
+    ></script>
+  </body>
+</html>
