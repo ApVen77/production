@@ -14,11 +14,12 @@
 }
 
 .aside-top-right {
-  flex-grow: 1;
+  flex-grow: 0;
   background-color: #227093;
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 280px;
 }
 
 .aside-top-right header {
@@ -117,7 +118,7 @@ header {
   display: flex;
   padding: 0;
   margin-top: -0px;
-  padding-left: 400px;
+  padding-left: 240px;
   padding-right: 0;
   flex-direction: column;
   flex-wrap: wrap;
@@ -154,9 +155,10 @@ header {
   display: flex;
   flex-direction: column;
   width: 55%;
+  width: 300px;
 }
 .driver_photo {
-  flex-grow: 8;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
